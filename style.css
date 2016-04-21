@@ -1,0 +1,32 @@
+body, html {
+    font-family: cursive;
+    font-size: 80%;
+}
+
+.foto1{
+    width: 500px;
+    height: 500px;
+    overflow: hidden;
+    float: left;
+    margin: 1em;
+    position: relative;
+}
+
+.foto1 article {
+    position: relative;
+    margin-top: 0px;
+    background-color: rgba(255, 255, 255, 0.5);
+    height: 517px;
+    padding: 2em;
+    box-sizing: border-box;
+    transition: margin-top 1s;
+}
+
+.foto1:hover article {
+    margin-top: -517px;
+}
+
+footer {
+    clear: left;
+    text-align: center;
+}
